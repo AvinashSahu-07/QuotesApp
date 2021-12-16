@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--    drawable object that manages an array of other drawables each drawable object is represented by a <item> element within a single <layer-list> element-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item >
+        <shape>
+            <solid android:color="#33000000" />
+            <corners android:radius="20dp"/>
+        </shape>
+    </item>
+    <item android:right="2dp" android:left="2dp" android:bottom="4dp">
+        <shape>
+            <solid android:color="#FFF"/>
+            <corners android:radius="20dp"/>
+        </shape>
+    </item>
+
+</layer-list>
